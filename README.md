@@ -1,8 +1,8 @@
 
 ## Design 1
 
-## NextJs APP Deployed on AWS amplify you check on this URL
-[https://main.d223tdryp7wexm.amplifyapp.com] (https://main.d223tdryp7wexm.amplifyapp.com)
+## NextJs APP Deployed on AWS amplify you can check on this URL
+https://main.d223tdryp7wexm.amplifyapp.com
 
 ## Getting Started
 

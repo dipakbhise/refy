@@ -19,8 +19,8 @@ const CartComp = () => {
 
         <div className="flex">
           <div>
-            {cartData.map((cart) => (
-              <React.Fragment>
+            {cartData.map((cart, index) => (
+              <React.Fragment key={index}>
                 <div className="mb-8">
                   <Card service={cart.service} />
                 </div>

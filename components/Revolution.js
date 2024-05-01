@@ -10,7 +10,7 @@ const Revolution = () => {
           <div className="flex my-[30px] flex-col w-[680px]">
             <div>
               <span className="text-[50px] font-bold">
-                Let's Revolutionize Your Business
+                Lets Revolutionize Your Business
               </span>
             </div>
             <div>
@@ -24,8 +24,8 @@ const Revolution = () => {
               <li className="text-[18px] text-[#5A5A5A] leading-[38.73px]">
                 Increasing footprints
               </li>
-            </div>
-            <br/>
+            </div><br/>
+            
             <div>
               <span className="text-[#5A5A5A] text-[18px] leading-[30px]">
                 Lorem ipsum dolor sit amet consectetur. In eget facilisi porta

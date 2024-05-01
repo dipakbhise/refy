@@ -5,7 +5,7 @@ import Button from "../common/Button";
 const Revolution = () => {
   return (
     <React.Fragment>
-      <div className="mx-[20px] my-[50px]">
+      <div className="mx-[40px] my-[50px]">
         <div className="flex justify-between">
           <div className="flex my-[30px] flex-col w-[680px]">
             <div>

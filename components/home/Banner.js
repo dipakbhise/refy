@@ -5,7 +5,7 @@ import Button from "../common/Button";
 const Banner = () => {
   return (
     <React.Fragment>
-      <div className="flex justify-center flex-col w-full mx-[20px] h-[75%]">
+      <div className="flex justify-center flex-col w-full ml-[40px] h-[75%]">
         <div className="w-[440px] text-[80px] leading-[96.82px]">
           <span className="font-bold">Provide team</span>{" "}
           <span className="font-thin">

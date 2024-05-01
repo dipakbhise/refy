@@ -1,11 +1,12 @@
 import { teamBuildingData } from "@/config/utils";
 import Image from "next/image";
 import React from "react";
+import Dot from "../common/Dot";
 
 const TeamBuilding = () => {
   return (
     <React.Fragment>
-      <div className="m-[20px]">
+      <div className="m-[40px]">
         <div className="flex justify-center items-center my-[30px] flex-col">
           <div>
             <span className="text-[50px] font-bold">Team Building</span>
@@ -22,7 +23,10 @@ const TeamBuilding = () => {
               <div className={`flex justify-between items-center ${index % 2 != 0 && 'flex-row-reverse'} mt-10 flex-wrap`}>
                 <div><Image src={item.imageUrl} width={600} height={493}/></div>
                 <div className={` ${index % 2 != 0 ? 'ml-[10%]':'mr-[10%]'}`}>
-                    <div><span className="text-[70px] text-[#D9D9D9]">{index + 1}</span></div>
+                    <div className="flex items-center">
+                      <div><span className="text-[70px] text-[#D9D9D9]">{ index < 10 ? "0" + (index + 1) :  index + 1}</span></div>
+                      <div className="ml-6 flex flex-col"><Dot/></div>
+                      </div>
                     <div className="my-6"><span className="text-[32px] font-bold">{item.title}</span></div>
                     {item.highlight.map((point, ind)=>(
                         <React.Fragment key={ind}>

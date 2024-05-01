@@ -4,7 +4,7 @@ import Button from "../common/Button";
 const Card = ({job}) => {
   return (
     <React.Fragment>
-      <div className="w-[920px] h-[236px] border-2 border-[#DADADA] flex items-center">
+      <div className="w-[1050px] h-[236px] border-2 border-[#DADADA] flex items-center">
         <div>
           <img
             src={`https://source.unsplash.com/720x460/?${job.name}`}

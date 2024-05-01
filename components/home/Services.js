@@ -4,7 +4,7 @@ import React from "react";
 const ServicesComp = () => {
   return (
     <React.Fragment>
-      <div className="mx-[20px] my-[50px]">
+      <div className="mx-[40px] my-[50px]">
         <div className="flex justify-center my-[30px] flex-col">
           <div>
             <span className="text-[50px] font-bold">Services</span>

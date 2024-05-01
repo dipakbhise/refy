@@ -5,10 +5,10 @@ import Image from "next/image";
 const AboutUs = () => {
   return (
     <React.Fragment>
-      <div className="mx-[20px]">
+      <div className="mx-[40px]">
         <Title title={"About Us"} />
-        <div className="flex justify-between">
-          <div className="w-[80%] mt-6">
+        <div className="flex justify-between flex-wrap w-full">
+          <div className="w-[50%] mt-6">
             <span className="text-[18px] leading-[30px]">
               {" "}
               Lorem ipsum dolor sit amet consectetur. Sagittis purus fames
@@ -31,7 +31,7 @@ const AboutUs = () => {
               luctus suspendisse ut pellentesque.
             </span>
           </div>
-          <div className="w-[50%] ml-16">
+          <div className="w-[40%] ml-16">
             <Image src={"/form.svg"} width={680} height={449} />
           </div>
         </div>

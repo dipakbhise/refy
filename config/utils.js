@@ -104,7 +104,7 @@ export const navMenu = [
   {
     id: 0,
     name: "About Us",
-    value: "playstore",
+    value: "about",
     url: "/about",
     icon: (
       <svg
@@ -125,7 +125,7 @@ export const navMenu = [
   {
     id: 1,
     name: "Pricing",
-    value: "linkedin",
+    value: "pricing",
     url: "/pricing",
     icon: (
       <svg
@@ -141,9 +141,9 @@ export const navMenu = [
     ),
   },
   {
-    id: 1,
+    id: 2,
     name: "Career",
-    value: "instagram",
+    value: "career",
     url: "/career",
     icon: (
       <svg
@@ -159,9 +159,9 @@ export const navMenu = [
     ),
   },
   {
-    id: 1,
+    id: 3,
     name: "Contact Us",
-    value: "github",
+    value: "contact",
     url: "/contact",
     icon: (
       <svg
@@ -180,9 +180,9 @@ export const navMenu = [
     ),
   },
   {
-    id: 1,
+    id: 4,
     name: "Cart",
-    value: "github",
+    value: "cart",
     url: "/cart",
     icon: (
       <svg

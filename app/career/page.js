@@ -1,17 +1,16 @@
-import AboutUs from "@/components/about/AboutUs";
+import CareerComp from "@/components/career/CareerComp";
 import Footer from "@/components/common/Footer";
 import Navbar from "@/components/common/Navbar";
-import Title from "@/components/common/Title";
 import React from "react";
 
-const About = () => {
+const Career = () => {
   return (
     <React.Fragment>
       <Navbar />
-      <AboutUs/>
+      <CareerComp />
       <Footer />
     </React.Fragment>
   );
 };
 
-export default About;
+export default Career;

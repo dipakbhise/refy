@@ -1,6 +1,6 @@
 'use client'
 import React from "react";
-import { footerMenu } from "../config/utils";
+import { footerMenu } from "../../config/utils";
 import Link from "next/link";
 
 const Footer = () => {

@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link";
 import React from "react";
-import { navMenu, socialMediaIcons } from "../config/utils";
+import { navMenu, socialMediaIcons } from "../../config/utils";
 import styles from './styles.module.css'
 
 const Navbar = () => {

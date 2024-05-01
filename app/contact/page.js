@@ -1,6 +1,6 @@
-import ContactUs from "@/components/ContactUs";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
+import ContactUs from "@/components/contact/ContactUs";
+import Footer from "@/components/common/Footer";
+import Navbar from "@/components/common/Navbar";
 import React from "react";
 
 const Contact = () => {

@@ -1,17 +1,16 @@
-import AboutUs from "@/components/about/AboutUs";
+import CartComp from "@/components/cart/CartComp";
 import Footer from "@/components/common/Footer";
 import Navbar from "@/components/common/Navbar";
-import Title from "@/components/common/Title";
 import React from "react";
 
-const About = () => {
+const Cart = () => {
   return (
     <React.Fragment>
       <Navbar />
-      <AboutUs/>
+      <CartComp />
       <Footer />
     </React.Fragment>
   );
 };
 
-export default About;
+export default Cart;

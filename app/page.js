@@ -1,12 +1,12 @@
-import Banner from "@/components/Banner";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
+import Banner from "@/components/home/Banner";
+import Footer from "@/components/common/Footer";
+import Navbar from "@/components/common/Navbar";
 import Image from "next/image";
 import React from "react";
 import styles from "./styles.module.css";
-import TeamBuilding from "@/components/TeamBuilding";
-import ServicesComp from "@/components/Services";
-import Revolution from "@/components/Revolution";
+import TeamBuilding from "@/components/home/TeamBuilding";
+import ServicesComp from "@/components/home/Services";
+import Revolution from "@/components/home/Revolution";
 
 const Test = () => {
   return (

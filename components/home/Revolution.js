@@ -1,8 +1,11 @@
+'use client'
 import Image from "next/image";
 import React from "react";
 import Button from "../common/Button";
+import { useRouter } from "next/navigation";
 
 const Revolution = () => {
+  const router = useRouter();
   return (
     <React.Fragment>
       <div className="mx-[40px] my-[50px]">
@@ -35,7 +38,7 @@ const Revolution = () => {
                 justo.
               </span>
             </div>
-            <Button text={"Contact Us"}/>
+            <Button text={"Contact Us"} onclick={()=>router.push("/contact")}/>
           </div>
 
           <div>

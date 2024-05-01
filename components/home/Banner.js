@@ -1,8 +1,12 @@
+'use client'
 import Image from "next/image";
 import React from "react";
 import Button from "../common/Button";
+import { useRouter } from "next/navigation";
 
 const Banner = () => {
+
+  const router = useRouter();
   return (
     <React.Fragment>
       <div className="flex justify-center flex-col w-full ml-[40px] h-[75%]">
@@ -13,7 +17,7 @@ const Banner = () => {
             to organizations irrespective of their size
           </span>
         </div>
-        <Button text={"Get Started"}/>
+        <Button text={"Get Started"} onclick={()=>router.push("/contact")}/>
         
         {/* <div className='absolute top-0 right-0 h-full '>
                 <Image src={"/banner.svg"} width={1532} height={1588}/>
